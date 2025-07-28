@@ -227,7 +227,7 @@ if __name__ == '__main__':
 			speak("If you talk then definitely your human.")
 
 		elif "why you came to world" in query:
-			speak("Thanks to Gaurav. further It's a secret")
+			speak("Thanks to Hamza. further It's a secret")
 
 		elif 'power point presentation' in query:
 			speak("opening Power Point presentation")
