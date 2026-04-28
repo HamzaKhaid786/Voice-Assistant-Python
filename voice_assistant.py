@@ -138,8 +138,7 @@ if __name__ == '__main__':
 
 		elif 'play music' in query or "play song" in query:
 			speak("Here you go with music")
-			# music_dir = "G:\\Song"
-			music_dir = "C:\\Users\\GAURAV\\Music"
+			music_dir = "G:\\Song"
 			songs = os.listdir(music_dir)
 			print(songs) 
 			random = os.startfile(os.path.join(music_dir, songs[1]))
@@ -149,10 +148,10 @@ if __name__ == '__main__':
 			speak(f"Sir, the time is {strTime}")
 
 		elif 'open opera' in query:
-			codePath = r"C:\\Users\\GAURAV\\AppData\\Local\\Programs\\Opera\\launcher.exe"
+			codePath = r"C:\\Users\\Dell\\AppData\\Local\\Programs\\Opera\\launcher.exe"
 			os.startfile(codePath)
 
-		elif 'email to gaurav' in query:
+		elif 'email to hamza' in query:
 			try:
 				speak("What should I say?")
 				content = takeCommand()
@@ -231,7 +230,7 @@ if __name__ == '__main__':
 
 		elif 'power point presentation' in query:
 			speak("opening Power Point presentation")
-			power = r"C:\\Users\\GAURAV\\Desktop\\Minor Project\\Presentation\\Voice Assistant.pptx"
+			power = r"C:\\Users\\dell\\Desktop\\Minor Project\\Presentation\\Voice Assistant.pptx"
 			os.startfile(power)
 
 		elif 'is love' in query:
